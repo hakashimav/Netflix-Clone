@@ -14,13 +14,13 @@ header a{
     padding: 5px 10px;
     margin: 20px 35px;
     text-decoration: none;
-    font-family: Tahoma;
+    font-family: Arial;
     border: none;
     margin-top: -165px;
 }
 header h1,h4,h5 {
     color: white;
-    font-family: Tahoma;
+    font-family: Arial;
 }
 header h1{
     font-size: 45px;
@@ -28,7 +28,7 @@ header h1{
 }
 header h4{
     font-size: x-large;
-    font-family:Tahoma;
+    font-family:Arial;
 }
 .header-text {
     text-align: center;
@@ -82,7 +82,7 @@ header h4{
 .enjoy-text {
     margin: 10px;
     padding: 200px 60px;
-    font-family: Tahoma;
+    font-family: Arial;
     font-size: large;
 }
 .enjoy-tv {
@@ -106,7 +106,7 @@ header h4{
     margin-top: -340px;
     margin-left: 650px;
     font-size: 20px;
-    font-family: Tahoma;
+    font-family: Arial;
 
 }
 .download-image {
@@ -123,7 +123,7 @@ header h4{
 .watch-text {
     padding: 50px 100px;
     font-size: 20px;
-    font-family: Tahoma;
+    font-family: Arial;
 }
 .kids {
     margin-top: 10px;
@@ -136,9 +136,141 @@ header h4{
     margin-top: -340px;
     margin-left: 750px;
     font-size: 20px;
-    font-family: Tahoma;
+    font-family: Arial;
 }
 .kids-image {
     position: relative;
     margin-left: 10px;
+}
+.asked {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    height: 700px;
+    position: relative;
+}
+.asked h1 {
+    padding: 100px 350px;
+    font-size: 35px;
+    font-family: Arial;
+    letter-spacing: 2px;
+}
+.what {
+    position: absolute;
+    background-color: rgb(59, 58, 58);
+    padding: 15px 15px;
+    margin: -70px;
+    width: 650px;
+    margin-left: 280px;
+}
+.what p {
+    font-size: 20px;
+    font-family: Arial;
+}
+.what1 {
+    position: absolute;
+    background-color: rgb(59, 58, 58);
+    padding: 15px 15px;
+    margin: -70px;
+    width: 650px;
+    left: 350px;
+    top: 300px;
+}
+.what1 p{
+    font-size: 20px;
+    font-family: Arial;
+}
+.what2 {
+    position: absolute;
+    background-color: rgb(59, 58, 58);
+    padding: 15px 15px;
+    margin: -70px;
+    width: 650px;
+    left: 350px;
+    top: 360px;
+}
+.what2 p{
+    font-size: 20px;
+    font-family: Arial;
+}
+.what3 {
+    position: absolute;
+    background-color: rgb(59, 58, 58);
+    padding: 15px 15px;
+    margin: -70px;
+    width: 650px;
+    left: 350px;
+    top: 420px;
+}
+.what3 p{
+    font-size: 20px;
+    font-family: Arial;
+}
+.what4 {
+    position: absolute;
+    background-color: rgb(59, 58, 58);
+    padding: 15px 15px;
+    margin: -70px;
+    width: 650px;
+    left: 350px;
+    top: 480px;
+}
+.what4 p{
+    font-size: 20px;
+    font-family: Arial;
+}
+.what5 {
+    position: absolute;
+    background-color: rgb(59, 58, 58);
+    padding: 15px 15px;
+    margin: -70px;
+    width: 650px;
+    left: 350px;
+    top: 540px;
+}
+.what5 p{
+    font-size: 20px;
+    font-family: Arial;
+}
+/*button pour affichez plus d'information*/
+.btn-close {
+    position: absolute;
+    width: 20px;
+    margin: 0;
+    left:630px;
+    top: 15px;
+    transform: rotateZ(45deg);
+}
+.asked-mail {
+    display: block;
+    position: absolute;
+    margin: 0;
+    left: 500px;
+    top: 190em;
+}
+.asked-mail h5{
+    margin-left: -90px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.asked-mail .input-mail {
+    width: 400px;
+    height: 40px;
+    font-family: Tahoma;
+    padding: 0px 5px;
+    margin-left: -130px;
+    outline: none;
+    border: 1px solid #fff;
+}
+.asked-mail .btn-submit {
+    position: absolute;
+    margin-top: 0px;
+    padding: 12px 22px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 16px;
 }
