@@ -96,3 +96,13 @@ header h4{
     margin-left: 687px;
     margin-top: 98px;
 }
+.download {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+.download-text {
+    font-size: large;
+    font-family: Tahoma;
+    margin: 10px;
+}
