@@ -102,7 +102,14 @@ header h4{
     background-color: black;
 }
 .download-text {
-    font-size: large;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 650px;
+    font-size: 20px;
     font-family: Tahoma;
-    margin: 10px;
+
+}
+.download-image {
+    position: relative;
+    margin-left: -40px;   
 }
