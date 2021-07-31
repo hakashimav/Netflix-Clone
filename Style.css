@@ -5,6 +5,13 @@
 body {
     background-color: rgb(59, 58, 58);
 }
+.netflix-logo {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    margin-left: 30px;
+    
+}
 header a{
     float: right;
     background-color: red;
@@ -314,4 +321,153 @@ footer {
 }
 footer p{
     margin-left: 150px;
+}
+/*les style pour la page sign in*/
+.website {
+    width: 100%;
+    height: 1000px;
+}
+.body {
+    background: transparent;
+}
+.for-sign {
+    position: relative;
+    margin-top: -1010px;
+    height: 745px;
+}
+.fb-icon {
+    width: 30px;
+}
+.form-sign {
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-family: Arial;
+    margin-left: 450px;
+    margin-top: -620px;
+    width: 420px;
+    height: 565px;
+    border-radius: 7px;
+}
+.sign-in {
+    position: relative;
+    font-family: Arial;
+    padding: 40px 50px;
+    z-index: 1;
+}
+.sign-mail {
+    position: absolute;
+    margin: 0;
+    left: 52px;
+    top: 95px;
+    padding: 0px 20px;
+    height: 40px;
+    width: 268px;
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(59, 58, 58);
+    z-index: 1;
+}
+.sign-password {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    left: 52px;
+    top: -5px;
+    padding: 0px 20px;
+    height: 40px;
+    width: 268px;
+    font-family: Arial;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(59, 58, 58);
+}
+.sign-submit {
+    position: absolute;
+    padding: 10px 135px;
+    margin: 0;
+    left: 52px;
+    top: 220px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.sign-box {
+    position: relative;
+    margin: 0;
+    left: 52px;
+    top: 49px;
+    background-color: gray;
+    color: gray;
+    outline: none;
+}
+.sign-rme {
+    position: absolute;
+    margin: 0;
+    left: 70px;
+    top: 262px;
+    font-size: 12px;
+    color: gray;
+}
+.sign-help {
+    position: absolute;
+    margin: 0;
+    left: 300px;
+    top: 262px;
+    font-size: 12px;
+    color: gray;
+}
+.sign-login {
+    position: absolute;
+    margin: 0;
+    left: 80px;
+    top: 360px;
+    color: gray;
+}
+.fb-icon {
+    position: absolute;
+    margin: 0;
+    left: 40px;
+    top: 350px;
+}
+.sign-new {
+    position: absolute;
+    margin: 0;
+    left: 50px;
+    top: 400px;
+    color: gray;
+}
+.sign-up {
+    position: absolute;
+    margin: 0;
+    left: 165px;
+    top: 400px;
+    color: white;
+    text-decoration: none;
+}
+.recaptcha {
+    position: absolute;
+    margin: 0;
+    left: 50px;
+    top: 430px;
+    font-size: 13px;
+    line-height: 20px;
+    color: gray;
+}
+.sign-learn {
+    text-decoration: none;
+    color: blue;
+}
+.floudite {
+    margin-top: 0px;
+    height: 255px;
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
 }
