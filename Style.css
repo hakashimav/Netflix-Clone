@@ -111,15 +111,34 @@ header h4{
 }
 .download-image {
     position: relative;
-    margin-left: -40px;   
+    margin-left: -40px;
+    padding: 50px 0px; 
 }
 .watch {
     margin-top: 10px;
     color: white;
     background-color: black;
+
 }
 .watch-text {
     padding: 50px 100px;
     font-size: 20px;
     font-family: Tahoma;
+}
+.kids {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+.kids-text {
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 750px;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+.kids-image {
+    position: relative;
+    margin-left: 10px;
 }
