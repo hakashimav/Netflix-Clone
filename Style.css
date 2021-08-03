@@ -100,7 +100,7 @@ header h4{
 }
 .enjoy-video {
     position: absolute;
-    margin-left: 687px;
+    margin-left: 733px;
     margin-top: 98px;
 }
 .download {
@@ -242,7 +242,7 @@ header h4{
 /*button pour affichez plus d'information*/
 .btn-close {
     position: absolute;
-    width: 20px;
+    width: 12px;
     margin: 0;
     left:630px;
     top: 15px;
@@ -332,23 +332,11 @@ footer p{
 }
 .for-sign {
     position: relative;
-    margin-top: -1010px;
-    height: 745px;
+    margin-top: -1020px;
+    height: 755px;
 }
 .fb-icon {
     width: 30px;
-}
-.form-sign {
-    position: absolute;
-    background-color: black;
-    opacity: 0.8;
-    color: white;
-    font-family: Arial;
-    margin-left: 450px;
-    margin-top: -620px;
-    width: 420px;
-    height: 565px;
-    border-radius: 7px;
 }
 .sign-in {
     position: relative;
@@ -370,6 +358,8 @@ footer p{
     border-radius: 3px;
     background-color: rgb(59, 58, 58);
     z-index: 1;
+    color: white;
+    font-size: 16px;
 }
 .sign-password {
     position: relative;
@@ -385,6 +375,8 @@ footer p{
     outline: none;
     border-radius: 3px;
     background-color: rgb(59, 58, 58);
+    font-size: 16px;
+    color: white;
 }
 .sign-submit {
     position: absolute;
@@ -397,13 +389,13 @@ footer p{
     border: none;
     border-radius: 3px;
     outline: none;
+    cursor: pointer;
 }
 .sign-box {
     position: relative;
     margin: 0;
     left: 52px;
     top: 49px;
-    background-color: gray;
     color: gray;
     outline: none;
 }
@@ -466,8 +458,22 @@ footer p{
 }
 .floudite {
     margin-top: 0px;
-    height: 255px;
-    position: relative;
+    height: 260px;
+    width: 100%;
+    position: absolute;
     background-color: black;
     opacity: 0.8;
+}
+.fieldset {
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-family: Arial;
+    margin-left: 450px;
+    margin-top: -620px;
+    width: 420px;
+    height: 565px;
+    border-radius: 7px;
+    border: none;
 }
