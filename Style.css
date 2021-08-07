@@ -322,6 +322,36 @@ footer {
 footer p{
     margin-left: 150px;
 }
+@media screen and (max-width:920px) {
+    header a{
+        float: right;
+        
+        color: white;
+        font-size: 18px;
+        
+        text-decoration: none;
+        font-family: Arial;
+        border: none;
+        margin-top: -165px;
+    }
+    .header-text {
+        text-align: center;
+        padding: 20px 100px;
+        line-height: 40px;
+        margin-top: 180px;
+    }
+    .header-image {
+        width: 100%;
+        height: 600px;
+    }
+    .fond-noir {
+        position: relative;
+        margin-top: -478px;
+        background-color: black;
+        height: 605px;
+        opacity: 0.5;
+    }
+} 
 /*les style pour la page sign in*/
 .website {
     width: 100%;
