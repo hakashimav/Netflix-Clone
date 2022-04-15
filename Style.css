@@ -58,6 +58,7 @@ header h4{
     padding: 12px 22px;
     color: white;
     background-color: red;
+    width: 200px;
     border: none;
     outline: none;
     cursor: pointer;
