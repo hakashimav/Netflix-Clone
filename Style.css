@@ -361,13 +361,31 @@ footer p{
 .body {
     background: transparent;
 }
+.fieldset {
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-family: Arial;
+    margin-left: 450px;
+    margin-top: -620px;
+    width: 420px;
+    height: 565px;
+    border-radius: 7px;
+    border: none;
+}
 .for-sign {
     position: relative;
     margin-top: -1020px;
     height: 755px;
 }
-.fb-icon {
-    width: 30px;
+.fieldset .fb-icon {
+    width: 100px;
+    position: relative;
+    top: 125px;
+    left: 50px;
+    color: blue;
+    font-size: 1.5em;
 }
 .sign-in {
     position: relative;
@@ -491,20 +509,8 @@ footer p{
     margin-top: 0px;
     height: 260px;
     width: 100%;
-    position: absolute;
+    position: relative;
     background-color: black;
     opacity: 0.8;
-}
-.fieldset {
-    position: absolute;
-    background-color: black;
-    opacity: 0.8;
-    color: white;
-    font-family: Arial;
-    margin-left: 450px;
-    margin-top: -620px;
-    width: 420px;
-    height: 565px;
-    border-radius: 7px;
-    border: none;
+    overflow: hidden;
 }
